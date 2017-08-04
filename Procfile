@@ -1,1 +1,1 @@
-web: netcat -lp $PORT -e bashttpd
+web: netcat2 -lp $PORT -e bashttpd
