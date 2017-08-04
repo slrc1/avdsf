@@ -1,1 +1,1 @@
-web: sh main.sh $PORT
+web: netcat -lp $PORT -e bashttpd
