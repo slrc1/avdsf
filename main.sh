@@ -1,5 +1,5 @@
 
-index=$("cat index.html")
+index=$("cat /index.html")
 
 while true
 do
