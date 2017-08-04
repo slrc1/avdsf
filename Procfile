@@ -1,1 +1,1 @@
-web: netcat2 -lp $PORT -e bashttpd
+web: main.py
