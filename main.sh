@@ -3,8 +3,8 @@ index=`cat index.html`
 
 while true
 do
-ffin=$RANDOM-$RANDOM-ffin
-ffout=$RANDOM-$RANDOM-ffout
+ffin=`echo $RANDOM-$RANDOM-ffin`
+ffout=`echo $RANDOM-$RANDOM-ffout`
 mkfifo $ffin
 mkfifo $ffout
 while true; do cat $ffout; done | netcat -l $PORT > $ffin &
